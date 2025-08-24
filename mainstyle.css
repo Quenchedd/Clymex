@@ -1,0 +1,629 @@
+body{
+    background-image: url("img/bg3.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 99vh;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+.btn img{
+    width: 100%;
+    height: 100%;
+}
+.btn:hover{
+   opacity: 0.8;
+}
+.wrapper{
+    width: 420px;
+    background: white;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 40px;
+    margin-top: 50px;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    color:#8c52ff ;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.box{
+    width: 330px;
+    height: 50px;
+    margin: 50px 0;
+    margin-left: 45px;
+}      
+.box input{
+    width: 100%;
+    height: 100%;
+    border: gray 2px solid;
+    border-radius: 40px;
+    padding: 10px;
+}
+.box i{
+    position: absolute;
+    transform: translateY(100%);
+    margin-left: -30px;
+    
+}
+.sign-up{
+    margin-left: 120px;
+}
+.box2{
+    width: 330px;
+    height: 50px;
+    margin: 30px;
+    margin-left: 45px;
+}      
+.box2 input{
+    width: 100%;
+    height: 100%;
+    border: gray 2px solid;
+    border-radius: 40px;
+    padding: 10px;
+}
+#group{
+    width: 330px;
+    height: 50px;
+    margin-left: 45px;
+    margin-bottom: 40px;
+    border: gray 2px solid;
+    border-radius: 40px;
+    padding: 10px;
+}
+.back{
+    margin-left: 90px;
+    margin-top: -15px;
+}
+.pic{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 120px;
+}
+.pic img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.details{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.profile h1{
+    text-align: center;
+    color:#8c52ff ;
+    margin-top: 20px;
+}
+.full{
+    width: 600px;
+    height: 460px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3);
+    border: gray solid 1px;
+    border-radius: 40px;
+}
+.user_info{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+.three_dots{
+    width: 20px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background: none;
+}
+.three_dots :hover{
+    cursor: pointer;
+}
+.user_text{
+    margin-left: 30px;
+    width: 250px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+.dropdown-content.show {
+    display: block;
+}
+.dropdown-content label {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    text-align: left;
+}
+.dropdown-content label:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+.dropdown-content input{
+    display: none;
+}
+.activity-pic{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: black 2px solid;
+    border-radius: 40px;
+    margin: 30px;
+    margin-bottom: -10px;
+    cursor: pointer;
+}
+.list{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   flex-wrap: wrap;
+   overflow: hidden;
+   overflow-y: auto;
+}
+.whole h1 {
+    text-align: center;
+    color: #8c52ff;
+}
+.whole {
+    height: 600px;
+    margin-top: 40px; /* Add some top margin */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.activity {
+    width: calc(33.3333% - 40px);
+    margin: 20px;
+    box-sizing: border-box;
+    flex-grow: 1; /* Allow activities to grow to fill the space evenly */
+    max-width: 300px; /* Set a maximum width for each activity */
+}
+.attendance{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.attendance-pic{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: black solid 2px;
+    border-radius: 40px;
+}
+.join h1{
+    text-align: center;
+    margin-top: 50px;
+    color:#8c52ff ;
+}
+.join-button{
+    width: 150px;
+    height: 50px;
+}
+.join button{
+    background: none;
+    border: none;
+}
+.join button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.activities{
+    width: 800px;
+    height: 370px;
+    border: black 2px solid;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.manage-row{
+    height: 47px;
+    display: grid;
+    grid-template-columns: 8fr 9fr 5fr 1fr 1fr 1fr; 
+    align-items: center;
+    grid-gap: 1em;
+    border-bottom: gray solid 1px;
+    padding-left: 10px;
+}
+.manage-row button{
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.add{
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    margin-left: 776px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.add:hover{
+    opacity: 0.6;
+}
+.manage-row button:hover{
+    opacity: 0.6;
+}
+.list-row{
+    width: auto;
+    height: 47px;
+    display: grid;
+    grid-template-columns: 8fr 9fr 5fr 1fr 1fr 1fr; 
+    align-items: center;
+    grid-gap: 1em;
+    border-bottom: black solid 1px;
+    background-color: #8c52ff ;
+    padding-left: 10px;
+    color: white;
+}
+.table-top{
+    width: 500px;
+    height: 47px;
+    display: grid;
+    grid-template-columns: 6fr 6fr 5fr; 
+    align-items: center;
+    grid-gap: 1em;
+    border-bottom: black solid 1px;
+    background-color: #8c52ff ;
+}
+.table-bottom{
+    height: 47px;
+    display: grid;
+    grid-template-columns: 6fr 6fr 5fr; 
+    align-items: center;
+    grid-gap: 1em;
+    border-bottom: gray solid 1px;
+}
+.scroll{
+    width: 500px;
+    height: 200px;
+    background: white;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.table-top p{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.table-bottom p{
+    display: flex;
+    justify-content: center;
+}
+.table-full{
+    width: 500px;
+    height: 250px;
+    border: black solid 2px;
+    margin-left: 50px;
+    overflow: hidden;
+}
+.header {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to bottom right,#676EFC,#E668CC);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    width: 100%;
+    height: 40px;
+    background: #6A82AB;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.scroll-act{
+    width: 797px;
+    height: 320px;
+    overflow: hidden;
+    overflow-y: auto;
+    
+}
+.details textarea{
+    width: 330px;
+    height: 70px;
+    margin-bottom: 15px;
+    margin-left: 45px;
+    padding: 10px;
+    border: gray 2px solid;
+    border-radius: 20px ;
+    overflow: hidden;
+} 
+.activity-name input{
+    width: 330px;
+    height: 40px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 45px;
+    padding: 10px;
+    border: gray 2px solid;
+    border-radius: 50px ;
+} 
+.points input{
+    width: 330px;
+    height: 40px;
+    margin-bottom: 15px;
+    margin-left: 45px;
+    padding: 10px;
+    border: gray 2px solid;
+    border-radius: 50px ;
+}
+.time input{
+    width: 330px;
+    height: 40px;
+    margin-bottom: 15px;
+    margin-left: 45px;
+    padding: 10px;
+    border: gray 2px solid;
+    border-radius: 50px ;
+}
+.create button{
+    width: 130px;
+    background: linear-gradient(to bottom right,#676EFC,#E668CC); 
+    border: none;
+    border-radius: 25px; 
+    color: white;
+    padding: 15px 30px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    cursor: pointer;
+    margin-left: 145px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+.create button:hover{
+    opacity: 0.8;
+}
+.activity-image {
+    color: #6A82AB;
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+.add-whole h1{
+    color: #8c52ff;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: -35px;
+}
+.location input{
+    width: 330px;
+    height: 40px;
+    margin-bottom: 15px;
+    margin-left: 45px;
+    padding: 10px;
+    border: gray 2px solid;
+    border-radius: 50px ;
+}
+.activities-2{
+    width: 500px;
+    height: 400px;
+    border: black 2px solid;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.manage-row-2{
+    height: 47px;
+    display: grid;
+    grid-template-columns: 7fr 4fr 1fr 1fr 1fr; 
+    align-items: center;
+    grid-gap: 1em;
+    border-bottom: gray solid 1px;
+    padding-left: 10px;
+}
+.manage-row-2 button{
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.list-row-2{
+    width: auto;
+    height: 47px;
+    display: grid;
+    grid-template-columns: 4fr 3fr 1fr 1fr 1fr; 
+    align-items: center;
+    grid-gap: 1em;
+    border-bottom: black solid 1px;
+    background-color: #8c52ff ;
+    padding-left: 10px;
+    color: white;
+}
+.add-2{
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    margin-left: 476px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.add-2 :hover{
+    opacity: 0.6;
+}
+.manage-row-2 button:hover{
+    opacity: 0.6;
+}
+.scroll-grp{
+    width: 497px;
+    height: 345px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.group-name input{
+    width: 330px;
+    height: 50px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    margin-left: 45px;
+    padding: 10px;
+    border: gray 2px solid;
+    border-radius: 50px ;
+}
+.top-row{
+    width: auto;
+    height: 47px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr ; 
+    align-items: center;
+    grid-gap: 1em;
+    border-bottom: black solid 1px;
+    background-color: #8c52ff ;
+    padding-left: 10px;
+    color: white;
+}
+.status-row{
+    height: 47px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr; 
+    align-items: center;
+    grid-gap: 1em;
+    border-bottom: gray solid 1px;
+    padding-left: 10px;
+}
+#status{
+    width: 100px;
+    height: 30px;
+    border: gray 2px solid;
+    border-radius: 40px;
+    padding: 5px;
+}
+.update button{
+    width: 100px;
+    background: linear-gradient(to bottom right,#676EFC,#E668CC); 
+    border: none;
+    border-radius: 25px; 
+    color: white;
+    padding: 10px 20px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px; 
+    cursor: pointer;
+    margin-left: 700px;
+    margin-top: -10px;
+}
+.update button:hover{
+    opacity: 0.8;
+}
+.home-button {
+    background-color: white;
+    color: #8c52ff;
+    padding: 10px 20px;
+    margin-right: 1300px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.8s;
+}
+.home-button:hover {
+    color: white;
+    background-color:#6d24ff ;
+    transition: 0.8s;
+}
+#footer-text {
+    font-size: 16px;
+    margin: 20px 0;
+}
+p, h2, h3, h4, h5, h6, li, a, span, div {
+    font-size: 1rem; /* Use relative units */
+    line-height: 1.5; /* Adjust line height for readability */
+}
+.search button{
+    border-radius:10px ;
+    width: 35px;
+    height: 25px;
+    background-image: none;
+}
+.search i{
+    display: flex;
+    justify-content: center;
+}
+.search input{
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+.footer button{
+    border-radius: 10px;
+    margin: 10px;
+}
+#drop{
+    width: 330px;
+    height: 50px;
+    margin: 45px;
+    border: gray 2px solid;
+    border-radius: 40px;
+    padding: 10px;
+}
+.submit button{
+    width: 130px;
+    background: linear-gradient(to bottom right,#676EFC,#E668CC); 
+    border: none;
+    border-radius: 25px; 
+    color: white;
+    padding: 15px 30px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    cursor: pointer;
+    margin-left: 145px;
+    margin-bottom: 20px;
+    margin-top: 45px;
+}
+.submit button:hover{
+    opacity: 0.8;
+}
