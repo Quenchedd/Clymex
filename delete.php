@@ -31,3 +31,4 @@ if (isset($_GET['activityid'])) {
 
 $con->close();
 ?>
+
